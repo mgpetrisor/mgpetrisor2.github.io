@@ -1,0 +1,171 @@
+/* Marshall Petrisor 8895196 */
+
+/* Root element */
+html {
+    font: 20px Arial, Times;
+    background-color: #c4c4c4;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #428;
+}
+
+/* Body styling */
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-width: 4px;
+    border-style: ridge;
+    border-color: green;
+}
+
+/* Main Elements */
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times', serif;
+    color: #005f6a;
+    text-align: center;
+}
+
+/* Qoute */
+q {
+    font-variant: normal;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: 'Times New Roman', serif;
+    color: #666;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #999;
+    padding: 0.5rem;
+    display: block;
+    margin: 1rem auto;
+    margin-right: 2rem;
+    max-width: 600px;
+}
+
+/* Layout */
+main {
+    width: 70%;
+    float: left;
+    padding: left 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#biography, #image {
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+}
+
+#image {
+    clear: center;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(to right, #005f6a, #00aaff);
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Figure and Image */
+figure {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #fafafa;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    text-align: center;
+}
+
+/* Video */
+iframe {
+    border: 2px solid #005f6a;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border-width: 5px;
+    border-style: groove;
+    border-color: purple;
+}
+
+
+/* Lists */
+ul {
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none; 
+    color: #005f6a;     
+    line-height: 1.5;   
+}
+
+a:hover {
+    color: maroon; }
+
+
+/* Forms */
+.form_control {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.form_label {
+    display: block;
+    color: blue;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+input[type="submit"] {
+    background-color: #005f6a;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+    main, aside {
+        width: 100%;
+        float: none;
+    }
+    #biography, #image {
+        width: 100%;
+        float: none;
+    }
+}
